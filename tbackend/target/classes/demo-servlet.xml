@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns= "http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 	
+ 	<bean class="com.tmf.sms.teacher.tbackend.models.Teacher" name="t1">
+ 	    <property name="teacherId" value="101"/>
+ 	    <property name="teacherName" value="Haritha"/>
+ 	</bean>   
+    
+ 	<bean class="com.tmf.sms.teacher.tbackend.models.Teacher" name="t2">
+ 	    <property name="teacherId" value="103"/>
+ 	    <property name="teacherName" value="Harshitha"/>
+ 	</bean>   
+ </beans>
